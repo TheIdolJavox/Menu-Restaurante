@@ -1,0 +1,68 @@
+/* Fondo beige para toda la página */
+body {
+    background-color: beige;
+	display: flex; 
+	flex-direction: column; 
+	height: 100vh; 
+	margin: 0;
+}
+
+/* Color naranja para hipervínculos */
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+/* Estilo de hipervínculos al pasar el mouse */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Color más oscuro para hipervínculos visitados */
+a:visited {
+    color: #cc5200;
+}
+
+/* Estilo de etiquetas de formulario */
+label {
+    display: block;
+}
+
+/* Estilo de elementos de formulario */
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.4em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+/* Estilo de elementos de formulario deshabilitados */
+input:disabled {
+    color: #ccc;
+}
+
+/* Estilo de botones */
+button {
+    color: #333;
+    background-color: #f4f4f4;
+    outline: none;
+}
+
+/* Estilo de botones deshabilitados */
+button:disabled {
+    color: #999;
+}
+
+/* Estilo de botones al hacer clic */
+button:not(:disabled):active {
+    background-color: #ddd;
+}
+
+/* Estilo de botones enfocados */
+button:focus {
+    border-color: #666;
+}
